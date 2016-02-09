@@ -14,6 +14,6 @@ Master branch is most times under active development, so expect things to break.
 
 ## License
 
-&copy; 2014-2015 [Libre Space Foundation](http://librespacefoundation.org).
+&copy; 2016 [Libre Space Foundation](http://librespacefoundation.org) & Commiters.
 
 Licensed under the [CERN OHLv1.2](LICENSE).
