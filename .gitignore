@@ -1,3 +1,9 @@
+antenna_release_mechanism/stepFiles/*
+antenna_release_mechanism/temp_cam/*
+*.blend
+*.blend1
+*.blend2
+*.tap
 *.gcode
 *.fcstd1
 *.stl
