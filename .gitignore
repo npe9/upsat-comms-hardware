@@ -8,3 +8,6 @@ antenna_release_mechanism/temp_cam/*
 *.fcstd1
 *.stl
 *.kicad_pcb-bak
+*.bak
+*.bck
+*.dcm
