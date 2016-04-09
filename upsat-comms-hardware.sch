@@ -30,23 +30,14 @@ LIBS:contrib
 LIBS:valves
 LIBS:F4
 LIBS:F4-cache
-LIBS:ADT7420
-LIBS:cc1120
-LIBS:dart-4460
-LIBS:hrs-dm3
-LIBS:tc74
 LIBS:sma
 LIBS:rf5110g
-LIBS:FA-128 32.0000MF20X-K3
-LIBS:fa128
 LIBS:txco_tg_5021cg
 LIBS:opa320
 LIBS:PE4259
 LIBS:TPS79930
-LIBS:FA_128
-LIBS:fa_128_
+LIBS:hrs-dm3
 LIBS:FA_128_
-LIBS:comms-hardware-diploma-theodoridis-cache
 EELAYER 25 0
 EELAYER END
 $Descr A1 33110 23386
@@ -571,12 +562,6 @@ F 3 "" H 4600 19000 50  0000 C CNN
 	1    4600 19000
 	1    0    0    -1  
 $EndComp
-Text Notes 2100 22750 0    60   ~ 0
-distributed connections between RF and digital ground\nTODO check analog ground
-Text Notes 6150 21900 0    197  ~ 0
-Na dw ti ginetai me ta ground klp
-Text Notes 1100 9900 0    197  ~ 0
-Na dw ti ginetai me ta ground klp kai toy stm gia ton DAC
 Text Notes 1600 18350 0    60   ~ 0
 L1 is a Bead to be mounted if the regulator U2 is not mounted,\nCC1120 ref des will default not use regulator\nCC1120/CC1125: do not mount: U2, C12, C41, C53\nTG5021CG is optional: do not mount L1 if regulator is mounted\n 
 $Comp
@@ -3165,8 +3150,6 @@ F 3 "" H 21550 1500 50  0000 C CNN
 	1    21550 1500
 	1    0    0    -1  
 $EndComp
-Text Notes 2900 2200 0    60   ~ 0
-CHECK DISCO GERBER
 $Comp
 L INDUCTOR L11
 U 1 1 5707485C
@@ -3523,20 +3506,14 @@ Text Label 2100 7400 2    60   ~ 0
 I2C1_SDA
 Text Label 12100 3600 0    60   ~ 0
 2GPIO3
-Text Notes 19700 22250 0    60   ~ 0
-MY OBC RX IS THE ACTUALL OBC TX
 Text Notes 28500 2250 0    394  ~ 0
-TX1
+TX
 Text Notes 7900 12350 0    394  ~ 0
 RX
 Text Label 2100 7500 2    60   ~ 0
 USART3_TX
 Text Label 2100 7600 2    60   ~ 0
 USART3_RX
-Text Notes 12600 9300 0    60   ~ 0
-WILL I PUT THE 0 OHM RES?\n
-Text Notes 1250 3000 2    60   ~ 0
-WILL I PUT THE 0 OHM RES?\n
 Text Label 20500 2100 2    60   ~ 0
 I2C1_SCL
 Text Label 20500 2200 2    60   ~ 0
@@ -5245,12 +5222,6 @@ Wire Wire Line
 	3050 16650 3050 17300
 Wire Wire Line
 	3050 17300 2500 17300
-Text Notes 26900 3250 0    60   ~ 0
-EDW ISWS LATHOS \nSTON KOMVO PREPEI\nNA NAI APO PANW?
-Text Notes 7450 9300 0    60   ~ 0
-MPORW NA THN PARALEIPSW THN 0\n
-Text Notes 1800 3450 0    60   ~ 0
-MPORW NA THN PARALEIPSW THN 0\n
 $Comp
 L GND #PWR0129
 U 1 1 570256D9
@@ -5452,25 +5423,25 @@ $EndComp
 $Comp
 L TEST_1P RFSHIELD1
 U 1 1 57080FD5
-P 29350 17650
-F 0 "RFSHIELD1" H 29350 17920 50  0000 C CNN
-F 1 "TEST_1P" H 29350 17850 50  0000 C CNN
-F 2 "libs:BMI-S-x06" H 29550 17650 50  0000 C CNN
-F 3 "" H 29550 17650 50  0000 C CNN
-	1    29350 17650
+P 25150 9500
+F 0 "RFSHIELD1" H 25150 9770 50  0000 C CNN
+F 1 "TEST_1P" H 25150 9700 50  0000 C CNN
+F 2 "libs:BMI-S-x06" H 25350 9500 50  0000 C CNN
+F 3 "" H 25350 9500 50  0000 C CNN
+	1    25150 9500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	29350 17650 29350 17900
+	25150 9500 25150 9750
 $Comp
 L GND #PWR0145
 U 1 1 5708250E
-P 29350 17900
-F 0 "#PWR0145" H 29350 17650 50  0001 C CNN
-F 1 "GND" H 29350 17750 50  0000 C CNN
-F 2 "" H 29350 17900 50  0000 C CNN
-F 3 "" H 29350 17900 50  0000 C CNN
-	1    29350 17900
+P 25150 9750
+F 0 "#PWR0145" H 25150 9500 50  0001 C CNN
+F 1 "GND" H 25150 9600 50  0000 C CNN
+F 2 "" H 25150 9750 50  0000 C CNN
+F 3 "" H 25150 9750 50  0000 C CNN
+	1    25150 9750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

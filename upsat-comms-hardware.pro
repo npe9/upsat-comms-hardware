@@ -1,4 +1,4 @@
-update=Fri 01 Apr 2016 01:07:41 AM EEST
+update=Sat 09 Apr 2016 03:21:08 PM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../kicad-libs-master comms pierro;../comms-hardware-diploma-theodoridis
+LibDir=libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
