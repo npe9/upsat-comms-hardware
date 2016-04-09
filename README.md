@@ -15,6 +15,7 @@ Master branch is most times under active development, so expect things to break.
 ## License
 
 &copy; 2016 Manos Theodoridis - APEL - University of Patras
+
 &copy; 2016 Libre Space Foundation & commiters
 
 Licensed under the [CERN OHLv1.2](LICENSE).
