@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name via)(type KiCad)(uri "$(KIPRJMOD)/via.pretty")(options "")(descr ""))
+  (lib (name libs)(type KiCad)(uri "$(KIPRJMOD)/libs")(options "")(descr ""))
+  (lib (name BMI-S-x06)(type KiCad)(uri "$(KIPRJMOD)/libs/BMI-S-x06.pretty")(options "")(descr ""))
+  (lib (name comms_upsat)(type KiCad)(uri "$(KIPRJMOD)/libs/comms_upsat.pretty")(options "")(descr ""))
+  (lib (name via)(type KiCad)(uri "$(KIPRJMOD)/libs/via.pretty")(options "")(descr ""))
 )
