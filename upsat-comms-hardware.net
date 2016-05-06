@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/manos/upsat-comms-hardware/upsat-comms-hardware.sch)
-    (date "Fri 06 May 2016 08:33:56 PM EEST")
+    (date "Fri 06 May 2016 09:15:32 PM EEST")
     (tool "Eeschema 4.0.2-1.fc23-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -236,7 +236,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 56FE6132))
     (comp (ref L1)
-      (value "L_Bead 0402")
+      (value BLM15HG102SN1D)
       (footprint libs:0402_cc)
       (fields
         (field (name Field4) 0402))
@@ -1228,7 +1228,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 57046080))
     (comp (ref L11)
-      (value "L_Bead 0402")
+      (value BLM15HG102SN1D)
       (footprint libs:0402_cc)
       (fields
         (field (name Field4) 0402))

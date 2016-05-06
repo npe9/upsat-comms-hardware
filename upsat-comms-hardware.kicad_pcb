@@ -4049,7 +4049,7 @@
     (fp_text reference L1 (at 0.605988 2.465308 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.17)))
     )
-    (fp_text value "L_Bead 0402" (at 3.9 0 90) (layer F.SilkS) hide
+    (fp_text value BLM15HG102SN1D (at 3.9 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.17)))
     )
     (fp_line (start 1.01 0.5) (end 0 0.5) (layer F.SilkS) (width 0.2))
@@ -4202,7 +4202,7 @@
     (fp_text reference L11 (at -2.6 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.17)))
     )
-    (fp_text value "L_Bead 0402" (at 3.9 0) (layer F.SilkS) hide
+    (fp_text value BLM15HG102SN1D (at 3.9 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.17)))
     )
     (fp_line (start 1.01 0.5) (end 0 0.5) (layer F.SilkS) (width 0.2))
