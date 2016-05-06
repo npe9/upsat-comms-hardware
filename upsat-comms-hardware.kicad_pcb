@@ -1,8 +1,8 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2-1.fc23-product)
 
   (general
-    (links 583)
-    (no_connects 1)
+    (links 600)
+    (no_connects 15)
     (area 102.424999 54.524999 195.075001 147.175001)
     (thickness 1.55)
     (drawings 10345)
@@ -399,6 +399,7 @@
     (add_net "Net-(P2-Pad3)")
     (add_net "Net-(P2-Pad4)")
     (add_net "Net-(P2-Pad5)")
+    (add_net "Net-(P2-Pad6)")
     (add_net "Net-(R17-Pad1)")
     (add_net "Net-(R20-Pad1)")
     (add_net "Net-(R32-Pad1)")
@@ -3351,7 +3352,7 @@
     (fp_text reference C31 (at 2.37966 7.43469 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.17)))
     )
-    (fp_text value "100 pF" (at 3.9 0 270) (layer F.SilkS) hide
+    (fp_text value "150 pF" (at 3.9 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.17)))
     )
     (fp_line (start 1.01 0.5) (end 0 0.5) (layer F.SilkS) (width 0.2))
@@ -3368,7 +3369,7 @@
     (fp_text reference C32 (at -0.469012 -7.459692 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.17)))
     )
-    (fp_text value "120 pF" (at 3.9 0 90) (layer F.SilkS) hide
+    (fp_text value "100 pF" (at 3.9 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.17)))
     )
     (fp_line (start 1.01 0.5) (end 0 0.5) (layer F.SilkS) (width 0.2))
@@ -5102,7 +5103,7 @@
     (fp_text reference L33 (at 0.68476 1.581328 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.17)))
     )
-    (fp_text value 2.7-3.9nH (at 0.61 1.18 180) (layer F.SilkS) hide
+    (fp_text value "2.7 nH" (at 0.61 1.18 180) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_line (start 0 0.55) (end 1.27 0.55) (layer F.SilkS) (width 0.17))
@@ -5187,7 +5188,7 @@
     (fp_text reference C160 (at -2.618672 -0.4 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.17)))
     )
-    (fp_text value 22-30pF (at 0.61 1.18 90) (layer F.SilkS) hide
+    (fp_text value "22 pF" (at 0.61 1.18 90) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_line (start 0 0.55) (end 1.27 0.55) (layer F.SilkS) (width 0.17))

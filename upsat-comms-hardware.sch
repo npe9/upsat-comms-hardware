@@ -568,7 +568,7 @@ F 3 "" H 4600 19000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1600 18350 0    60   ~ 0
-L1 is a Bead to be mounted if the regulator U2 is not mounted,\nCC1120 ref des will default not use regulator\nCC1120/CC1125: do not mount: U2, C12, C41, C53\nTG5021CG is optional: do not mount L1 if regulator is mounted\n 
+L1 is a Bead to be mounted if the regulator U2 is not mounted,\nCC1120 ref des will default not use regulator\nCC1120/CC1125: do not mount: U2, C4, C8, C13\nTG5021CG is optional: do not mount L1 if regulator is mounted\n 
 $Comp
 L R R17
 U 1 1 5700E2CB
@@ -1015,7 +1015,7 @@ L C C32
 U 1 1 5700E3C1
 P 7200 17400
 F 0 "C32" H 7318 17500 50  0000 C CNN
-F 1 "120 pF" H 7279 17300 50  0000 L CNN
+F 1 "100 pF" H 7279 17300 50  0000 L CNN
 F 2 "libs:0402_cc" H 7238 17250 50  0000 C CNN
 F 3 "" H 7200 17400 50  0000 C CNN
 F 4 "0402" H 7200 17400 60  0001 C CNN "PKG"
@@ -1084,7 +1084,7 @@ L C C31
 U 1 1 5700E3E8
 P 6950 16350
 F 0 "C31" V 7068 16350 50  0000 C CNN
-F 1 "100 pF" V 6832 16350 50  0000 C CNN
+F 1 "150 pF" V 6832 16350 50  0000 C CNN
 F 2 "libs:0402_cc" H 6988 16200 50  0000 C CNN
 F 3 "" H 6950 16350 50  0000 C CNN
 F 4 "0402" V 6950 16350 60  0001 C CNN "PKG"
@@ -1451,7 +1451,7 @@ F 3 "" H 3950 12750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1600 12150 0    60   ~ 0
-CC1120/25 uning XTAL: do not mount: X2, C321, C322, R321, R322\nCC1120/25 using TCXO: do not mount: R12, R321, C311, X1. C301: mount 0 Ohm resisitor\n X1: CC1120:32MHz and CC1125:40MHz\n R12 is a 0ohms shunt resistor that ground\n the EXT_XOSC pin when TCXO is not mounted.\n  
+CC1120/25 uning XTAL: do not mount: U1, C3, C9, R9, R6\nCC1120/25 using TCXO: do not mount: R10, R9, C10, U3, C11: mount 0 Ohm resisitor\n X1: CC1120:32MHz and CC1125:40MHz\n R10 is a 0ohms shunt resistor that ground\n the EXT_XOSC pin when TCXO is not mounted.\n  
 $Comp
 L SMA J1
 U 1 1 5702F3D0
@@ -2649,7 +2649,7 @@ L INDUCTOR L33
 U 1 1 57045EE8
 P 28300 16150
 F 0 "L33" V 28250 16150 50  0000 C CNN
-F 1 "2.7-3.9nH" V 28400 16150 50  0000 C CNN
+F 1 "2.7 nH" V 28400 16150 50  0000 C CNN
 F 2 "libs:0603murata2" H 28300 16150 50  0000 C CNN
 F 3 "" H 28300 16150 50  0000 C CNN
 F 4 "0603" V 28300 16150 60  0001 C CNN "PKG"
@@ -2661,7 +2661,7 @@ L C C160
 U 1 1 57045EEF
 P 28900 16550
 F 0 "C160" H 29018 16650 50  0000 C CNN
-F 1 "22-30pF" H 28979 16450 50  0000 L CNN
+F 1 "22 pF" H 28979 16450 50  0000 L CNN
 F 2 "libs:0603murata2" H 28938 16400 50  0000 C CNN
 F 3 "" H 28900 16550 50  0000 C CNN
 F 4 "0603" H 28900 16550 60  0001 C CNN "PKG"
@@ -3025,7 +3025,7 @@ F 3 "" H 16700 12650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 14350 12050 0    60   ~ 0
-CC1120/25 uning XTAL: do not mount: X2, C321, C322, R321, R322\nCC1120/25 using TCXO: do not mount: R12, R321, C311, X1. C301: mount 0 Ohm resisitor\n X1: CC1120:32MHz and CC1125:40MHz\n R12 is a 0ohms shunt resistor that ground\n the EXT_XOSC pin when TCXO is not mounted.\n  
+CC1120/25 uning XTAL: do not mount: U6, C53, C65, R26, R24\nCC1120/25 using TCXO: do not mount: R27, R26, C67, U18, C69: mount 0 Ohm resistor\n X1: CC1120:32MHz and CC1125:40MHz\n R27 is a 0ohms shunt resistor that ground\n the EXT_XOSC pin when TCXO is not mounted.\n  
 $Comp
 L C C139
 U 1 1 57046037
@@ -3304,7 +3304,7 @@ F 3 "" H 17350 18850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 14350 18250 0    60   ~ 0
-L1 is a Bead to be mounted if the regulator U2 is not mounted,\nCC1120 ref des will default not use regulator\nCC1120/CC1125: do not mount: U2, C12, C41, C53\nTG5021CG is optional: do not mount L1 if regulator is mounted\n 
+L11 is a Bead to be mounted if the regulator U8 is not mounted,\nCC1120 ref des will default not use regulator\nCC1120/CC1125: do not mount: U8, C55, C62, C73\nTG5021CG is optional: do not mount L1 if regulator is mounted\n 
 $Comp
 L +3.3V #PWR0118
 U 1 1 5708BDF3
