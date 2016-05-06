@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/manos/upsat-comms-hardware/upsat-comms-hardware.sch)
-    (date "Fri 06 May 2016 08:09:55 PM EEST")
+    (date "Fri 06 May 2016 08:33:56 PM EEST")
     (tool "Eeschema 4.0.2-1.fc23-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1140,7 +1140,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 57045FAC))
     (comp (ref R53)
-      (value 100)
+      (value "180 Ohm")
       (footprint libs:0603murata2)
       (fields
         (field (name PKG) 0603))
