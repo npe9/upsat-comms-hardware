@@ -11,3 +11,5 @@ antenna_release_mechanism/temp_cam/*
 *.bak
 *.bck
 *.dcm
+*.dat
+
